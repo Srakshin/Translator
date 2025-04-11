@@ -4,7 +4,7 @@ from gtts import gTTS
 import tempfile
 genai.configure(api_key="AIzaSyDydWxM_3IoML4ZPSe-YAlBQOZvXGCz8PI")
 model = genai.GenerativeModel('gemini-1.5-flash')
-st.title("🌐 Language Translator using Gemini ✨ + Voice-over 🔊")
+st.title("Language Translator + Voice-over")
 input_text = st.text_input("Type the Word or Sentence", "Hello")
 indian_languages = [
     "Hindi", "Telugu", "Tamil", "Kannada", "Malayalam", "Bengali", "Gujarati",
